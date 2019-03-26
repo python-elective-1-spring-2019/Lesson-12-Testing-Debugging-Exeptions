@@ -1,2 +1,0 @@
-from school import *
-
