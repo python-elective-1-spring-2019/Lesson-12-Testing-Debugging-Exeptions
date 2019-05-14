@@ -25,7 +25,7 @@ def remove_students():
 
 
 def main():
-
+    
     # print out all enrollments ie. course -> student
 
 if __name__ == "__main__":

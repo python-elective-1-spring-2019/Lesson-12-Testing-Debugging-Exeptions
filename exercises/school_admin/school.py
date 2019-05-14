@@ -2,9 +2,14 @@ class Student:
     def __init__(self, name, cpr):
         # Name is a string, no numbers are allowed in the string, and name should not be empty
         # Cpr format 'xxxxxx-xxxx' where x is numbers, and is a valid cpr number
-        pass
+        self.name = self.set_name(name)
+
+    def set_name(self, name):
+        # Name is a string, no numbers are allowed in the string, and name should not be empty
+        return name
 
 
+        
 class Course:
     def __init__(self, title, course_id):
         # Title is a String
